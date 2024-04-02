@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-asciiChars = ["Ñ", "@", "#", "W", "$", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "?", "!", "a", "b", "c", ";", ":", "+", "=", "-", ",", ".", "_"]
+asciiChars = ["@", "#", "$", "%", "?", "*", "+", ";", ":", ",", "."]
 
 def resizeImage(image, newWidth = 100):
     width, height = image.size
